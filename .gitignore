@@ -218,3 +218,15 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# --- Project additions (foundation PR) ---
+# Generated SQLite databases (the default DATABASE_URL writes ./tickets.db)
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.db-wal
+*.db-shm
+# Local env files other than the committed example
+.env.*
+!.env.example
